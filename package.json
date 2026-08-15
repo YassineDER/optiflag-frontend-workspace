@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "turbo dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "turbo dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Yassine DERGAOUI",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",

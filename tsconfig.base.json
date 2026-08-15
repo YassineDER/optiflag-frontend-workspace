@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@optiflag/ui": ["./packages/ui/src/index.ts"],
+      "@optiflag/ui/*": ["./packages/ui/src/*"]
+    }
+  }
+}
