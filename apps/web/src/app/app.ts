@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ButtonComponent } from '../../../../packages/ui/src/index';
+import { ButtonComponent } from '@optiflag/ui';
 
 @Component({
   selector: 'app-root',
