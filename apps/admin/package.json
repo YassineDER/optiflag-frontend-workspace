@@ -1,5 +1,5 @@
 {
-  "name": "@optiflag/web",
+  "name": "@optiflag/admin",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -23,8 +23,8 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular/build": "^22.1.3",
-    "@angular/cli": "^22.1.3",
+    "@angular/build": "^22.1.4",
+    "@angular/cli": "^22.1.4",
     "@angular/compiler-cli": "^22.1.0",
     "prettier": "^3.8.1",
     "typescript": "~6.0.2"

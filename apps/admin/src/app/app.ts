@@ -1,14 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ButtonComponent } from '../../../../packages/ui/src/index';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, ButtonComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('Optiflag');
+  protected readonly title = signal('admin');
 }

@@ -1,7 +1,11 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "types": []
+    "types": [],
+    "outDir": "dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "emitDeclarationOnly": false
   },
   "angularCompilerOptions": {
     "strictTemplates": true
