@@ -8,18 +8,19 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@angular/common": "^22.0.0",
-    "@angular/core": "^22.0.0"
+    "@angular/common": "catalog:",
+    "@angular/core": "catalog:"
   },
   "devDependencies": {
-    "@angular/common": "^22.1.1",
-    "@angular/compiler": "^22.0.0",
-    "@angular/compiler-cli": "^22.0.0",
-    "@angular/core": "^22.1.1",
-    "rxjs": "~7.8.2",
-    "typescript": "~6.0.2"
+    "@angular/common": "catalog:",
+    "@angular/compiler": "catalog:",
+    "@angular/compiler-cli": "catalog:",
+    "@angular/core": "catalog:",
+    "rxjs": "catalog:",
+    "typescript": "catalog:"
   }
 }

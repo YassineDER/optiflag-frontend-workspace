@@ -1,6 +1,23 @@
 packages:
   - "apps/*"
   - "packages/*"
+catalog:
+  "@angular/build": "^22.1.4"
+  "@angular/cli": "^22.1.4"
+  "@angular/common": "^22.1.0"
+  "@angular/compiler": "^22.1.0"
+  "@angular/compiler-cli": "^22.1.0"
+  "@angular/core": "^22.1.0"
+  "@angular/forms": "^22.1.0"
+  "@angular/platform-browser": "^22.1.0"
+  "@angular/router": "^22.1.0"
+  "@tailwindcss/postcss": "^4.1.12"
+  postcss: "^8.5.3"
+  tailwindcss: "^4.1.12"
+  rxjs: "~7.8.0"
+  tslib: "^2.8.1"
+  typescript: "~6.0.2"
+
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
